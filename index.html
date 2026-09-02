@@ -94,8 +94,8 @@
     <header id="mainHeader" class="fixed top-0 w-full z-50 transition-all duration-300 bg-white border-b border-transparent py-3 no-print">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
             <div class="flex items-center gap-4">
-                <!-- الشعار الحقيقي -->
-                <div class="flex items-center justify-center bg-black rounded-xl shadow-md p-1 border-2 border-orange-500 overflow-hidden h-14 w-14">
+                <!-- الشعار الحقيقي بخلفية بيضاء -->
+                <div class="flex items-center justify-center bg-white rounded-xl shadow-sm p-1 border border-slate-200 overflow-hidden h-14 w-14">
                     <img src="sci.jpg" alt="شعار كلية العلوم" class="h-full w-full object-contain" onerror="this.style.display='none'">
                 </div>
                 <div>
@@ -120,8 +120,8 @@
             <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/80 to-slate-900/30"></div>
             
             <!-- إضافة الشعار كخلفية مائية خفيفة في الهيرو -->
-            <div class="absolute right-10 top-1/2 -translate-y-1/2 opacity-10 pointer-events-none hidden lg:block">
-                <img src="sci.jpg" alt="Watermark" class="h-64 w-auto grayscale">
+            <div class="absolute right-10 top-1/2 -translate-y-1/2 opacity-10 pointer-events-none hidden lg:block bg-white rounded-full p-4">
+                <img src="sci.jpg" alt="Watermark" class="h-64 w-auto grayscale mix-blend-multiply">
             </div>
 
             <div class="absolute inset-0 flex items-end pb-12">
@@ -243,8 +243,9 @@
         <footer class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-16 pb-8 no-print">
             <div class="bg-slate-900 rounded-[2rem] p-6 md:p-8 text-center md:text-right flex flex-col md:flex-row items-center justify-between gap-4 border border-slate-800 shadow-xl">
                 <div class="flex items-center gap-4">
-                    <div class="w-12 h-12 bg-white/5 rounded-xl flex items-center justify-center border border-white/10">
-                        <img src="sci.jpg" alt="Icon" class="h-8 w-8 object-contain">
+                    <!-- الشعار في الفوتر بخلفية بيضاء -->
+                    <div class="w-12 h-12 bg-white rounded-xl flex items-center justify-center border border-slate-700 overflow-hidden">
+                        <img src="sci.jpg" alt="Icon" class="h-10 w-10 object-contain">
                     </div>
                     <div>
                         <h4 class="text-lg font-heading font-black text-white">كلية العلوم - جامعة أسيوط</h4>
