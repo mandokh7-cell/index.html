@@ -265,9 +265,9 @@
         const MAX_CREDITS = 18; // الحد الأقصى للتسجيل (مادة 12 من اللائحة)
 
         const MOCK_STUDENT = {
-            id: "202600123",
-            name: "طالب تجريبي (مستوى أول)",
-            major: "علوم طبيعية (عام)",
+            id: "120241028",
+            name: "محمد خالد عربي محمد",
+            major: "علوم الحاسب",
             level: "المستوى الأول",
             gpa: 0.00, // مستجد
         };
@@ -292,7 +292,7 @@
         // Init
         document.addEventListener('DOMContentLoaded', () => {
             document.getElementById('currentYear').textContent = new Date().getFullYear();
-            document.getElementById('headerStudentName').textContent = MOCK_STUDENT.name.split(' ').slice(0,2).join(' ');
+            document.getElementById('headerStudentName').textContent = MOCK_STUDENT.name.split(' ').slice(0,2).join(' '); // عرض أول اسمين فقط في الهيدر
             
             renderStudentStaticInfo();
             renderDashboard();
